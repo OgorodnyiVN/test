@@ -1,0 +1,170 @@
+@media(max-width:1000px){
+	.search__input{
+		width: 250px;
+	}
+	.modelgirl__img-box{
+		margin-right: 50px;
+	}
+	
+}
+@media(max-width:850px){
+	.search__input{
+		display: none;
+	}
+	.modelprofile__nav{
+
+	}
+	.modelgirl{
+		flex-direction: column;
+	}
+	.modelgirl__img-box{
+		margin: 0px 0px 24px 0px;
+	}
+	.modelinfo__archive{
+		max-width: 400px;
+		text-align: center;
+	}
+	.modelinfo__archive-full{
+		max-width: 400px;
+		text-align: center;
+	}
+	.modelphoto__grid{
+		grid-template: repeat(2, auto) / repeat(3, 1fr);
+		gap: 30px 30px;
+	}
+}
+@media(max-width:650px){
+	.modelphoto__grid{
+		grid-template: repeat(2, auto) / repeat(2, 1fr);
+		gap: 21px 21px;
+	}
+
+}
+@media(max-width:600px){
+	.header__inner{
+		padding: 16px 0px 8px 0px;
+	}
+	.header__start{
+		width: 100%;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+	}
+	.language{
+		margin: 0;
+	}
+	.header__social, .search__button, .header__btn-box{
+		display: none;
+	}
+
+
+	.modelprofile__nav{
+		margin-bottom: 32px;
+	}
+	.modelgirl__img-box{
+		width: 300px;
+		height: 330px;
+	}
+	.modelgirl__avatar{
+		height: 330px;
+	}
+	.modelinfo__heading{
+		margin-bottom: 34px;
+	}
+	.modelinfo__name{
+		font-size: 26px;
+	}
+	.modelinfo__body{
+		margin-bottom: 24px;
+	}
+	.modelinfo__age{
+		font-size: 18px;
+	}
+	.modelphoto__inner{
+		margin-top: 32px;
+	}
+	.modelphoto__title{
+		font-size: 18px;
+	}
+	.footer{
+		padding: 32px 0px 16px 0px;
+	}
+
+}
+@media(max-width:500px){
+	.modelgirl__img-box{
+		width: 300px;
+		height: 330px;
+	}
+	.modelgirl__avatar{
+		height: 330px;
+	}
+	.modelinfo__name{
+		font-size: 20px;
+	}
+	.modelinfo__body{
+		margin-bottom: 24px;
+	}
+	.modelinfo__age{
+		font-size: 14px;
+	}
+	.modelinfo__archive{
+		font-size: 14px;
+	}
+	.modelinfo__archive-full{
+		font-size: 14px;
+	}
+	.modelphoto__title{
+		font-size: 18px;
+	}
+	.modelphoto__title span{
+		font-size: 18px;
+	}
+	.modelphoto__grid-item{
+		height: 250px;
+	}
+	.modelphoto__grid-item img{
+		height: 250px;
+	}
+	.modelphoto__grid{
+		margin: 0;
+	}
+	.modelprofile__btn-box{
+		display: none;
+	}
+
+	.footer__top-list{
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer__top-text{
+		margin-bottom: 12px;
+	}
+	.footer__top-elem{
+		margin-bottom: 14px;
+	}
+	.footer__top-elem:last-child{
+		margin: 0;
+	}
+}
+@media(max-width:450px){
+
+	.modelinfo__archive{
+		width: 100%;
+		padding: 15px 0px;
+	}
+	.modelinfo__archive-full{
+		width: 100%;
+		padding: 15px 0px;
+	}
+	.modelphoto__grid-item{
+		height: 190px;
+	}
+	.modelphoto__grid-item img{
+		height: 190px;
+	}
+}
+@media(max-width:350px){
+	.modelgirl__img-box{
+		width: 100%;
+	}
+}
