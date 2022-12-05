@@ -295,13 +295,14 @@ html, body {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-
+  position: absolute;
   left: 0;
   right: 0;
   bottom: -3px;
   padding: 52px 0px 30px 0px;
   background: url(../images/Frame.png) 50% 50% / cover no-repeat;
   width: 100%;
+  z-index: 100;
 }
 .popular__img-effect-text {
   margin-left: 24px;
